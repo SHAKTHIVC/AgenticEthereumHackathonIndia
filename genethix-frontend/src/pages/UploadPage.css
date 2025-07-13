@@ -1,0 +1,175 @@
+/* Page Background */
+.upload-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e3f6ff, #f5faff);
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAVBAR – no change unless you want */
+.navbar {
+  background-color: #12372A;
+  color: white;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Main card */
+.card-container {
+  background: white;
+  width: 700px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 35px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  flex-shrink: 0;
+}
+
+/* Wallet box */
+.wallet-info {
+  background: #e8fff3;
+  border-left: 5px solid #00C58E;
+  padding: 12px 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+/* Form styling */
+.input-group {
+  margin-bottom: 22px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1.5px solid #d1d5db;
+  border-radius: 10px;
+  outline: none;
+}
+
+.unit {
+  margin-left: 8px;
+  color: #6b7280;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #00D3A9;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #00bfa6;
+}
+.upload-page {
+  overflow-y: hidden;
+}
+
+.inline-group {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper input {
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1.5px solid #d1d5db;
+  margin-top: 5px;
+}
+
+.unit {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+.purpose-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.purpose-tag {
+  padding: 8px 14px;
+  background-color: #f0f0f0;
+  border: 1.5px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.purpose-tag:hover {
+  background-color: #d9f6ec;
+  border-color: #00d3a9;
+}
+
+.purpose-tag.selected {
+  background-color: #12372A;
+  color: white;
+  border-color: #12372A;
+}
+.purpose-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.purpose-tag {
+  padding: 10px 16px;
+  border-radius: 9999px;
+  background-color: #f3f4f6;
+  border: 1.5px solid #d1d5db;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+}
+
+.purpose-tag.selected {
+  background-color: #00D3A9;
+  color: white;
+  border-color: #00D3A9;
+}
+
+.purpose-tag.highlighted {
+  background-color: #fffbe6;
+  border-color: #ffcc00;
+  font-weight: 600;
+  color: #b88400;
+}
+
+.purpose-tag.highlighted.selected {
+  background-color: #ffcc00;
+  color: white;
+  border-color: #ffcc00;
+}
